@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sol>
+    <vars>
+        <var class='hidden' name='last_stage'>yes</var>
+        <var class='lens' name='height' label='Высота' short='H' unit='мкм'>1400</var>
+        <var class='lens' name='width' label='Ширина' short='W' unit='мкм'>200</var>
+        <var class='lens' name='aperture' label='Апертура' short='A' unit='мкм'>200</var>
+        <var class='lens' name='bottom' label='Толщина перешейка' short='B' unit='мкм'>5</var>
+        <var class='lens' name='delta1' label='Смещение профиля' short='∆' unit='мкм'>0</var>
+        <var class='calc' name='stepX' label='Шаг вычисления по оси X' unit='мкм'>5</var>
+        <var class='calc' name='precX' label='Точность вычисления по оси X' unit='знаков после зяпятой'>2</var>
+        <var class='calc' name='precY' label='Точность вычисления по оси Y' unit='знаков после зяпятой'>2</var>
+    </vars>
+    <document label='X-Lens Profile Calculator' style-file='xlp.css' script-file='xlp.js'>
+        <content>
+            <field class='inputs' name='lens' label='Параметры линзы' />
+            <field class='inputs' name='calc' label='Параметры расчета' />
+            <field class='img' name='drawing' label='Схема параметров линзы' src='xlp.png' />
+            <field class='result' name='profile' label='Расчетный профиль' />
+        </content>
+    </document>
+</sol>

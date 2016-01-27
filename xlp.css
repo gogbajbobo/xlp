@@ -1,0 +1,93 @@
+body {
+    font-family:sans-serif;
+    font-size: 1em;
+}
+.error {
+    background-color: pink;
+}
+input {
+    background-color: white;
+    border: solid 1px grey;
+    font-size: 1em;
+    text-align:right;
+    position:relative;
+    display: block;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin: auto .5em auto auto;
+    padding: .1em;
+    width: 7em;
+}
+fieldset#inputs_lens {
+    border: solid 1px grey;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #cec;
+    padding: .5em;
+    margin-bottom: .5em;
+}
+fieldset#inputs_calc {
+    border: solid 1px grey;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #bee;
+    padding: .5em;
+}
+div.img {
+    float: left;
+    padding: 1.5em;
+}
+h1 {
+    font-size: 1.2em;
+    /*display: none;*/
+    text-align: center;
+}
+table {
+    font-size: .8em;
+    background-color: white;
+    border:solid 1px grey;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: .2em;
+    margin: auto;
+}
+div.forms, div.result {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ded;
+    float: left;
+    padding: 1em;
+    margin-right: .5em;
+    border: solid 1px grey;
+}
+form#save_result {
+    position: relative;
+    padding: 0;
+    border: none;
+}
+form.result {
+    margin-left: 1em;
+}
+label {
+    display: block;
+    margin: .5em .5em .5em .5em;
+}
+span.units {
+    font-style: italic;
+    font-size: .8em;
+}
+span.short {
+    font-style: italic;
+    font-size: 1.2em;
+}
+div.button{
+    padding: .5em .5em .5em .5em;
+}
+div.button > input {
+    display: block;
+    background: #dcd;
+    position: relative;
+    margin: auto;
+    width: 7em;
+    text-align: center;
+}

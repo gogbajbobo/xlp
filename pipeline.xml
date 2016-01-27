@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sol>
+    <pipeline>
+        <execute href='1.xsl' />
+        <execute href='last.xsl' />
+    </pipeline>
+</sol>
